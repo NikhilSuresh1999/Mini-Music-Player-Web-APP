@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Varela+Round&display=swap');
+.brand img{
+    width:44px;
+    padding:0 8px;
+    position: relative;
+     
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'ubuntu',sans-serif;
+}
+nav ul{
+    display:flex;
+    height:50px;
+    align-items:center;
+    background-color: black;
+    color:aliceblue;
+    list-style-type:none;
+} 
+nav ul li{
+    padding:0 12px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color:white;
+    font-family: 'Verela Round',sans-serif;
+    display:flex;
+    width:70%;
+    margin:23px auto;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    
+    
+
+    
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    color:rgb(217, 225, 231);
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#myprogressbar{
+    width:80vw;
+    text-align: center; 
+    cursor: pointer;
+  
+}
+.icons{
+    margin-top:14px;
+}
+.icons i{
+    cursor:pointer;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color:white;
+    
+    color:black;
+    margin:12px 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width:43px;
+    margin:0 23px;
+    height:50px;
+    border-radius:34px;
+}
+
+/* .timestamp{
+    margin: 0 5px;
+   
+} */
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin:74px;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Verela Round',sans-serif;
+}
+.songinfo img{
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+}
+.songitemplay{
+    margin: 0 24px;
+}
